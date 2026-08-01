@@ -1,7 +1,26 @@
 aid: proptiger
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proptiger.png
 name: PropTiger
-description: 'PropTiger is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'PropTiger.com is one of India''s leading online real estate advisory and
+  transaction platforms, founded in 2011 and now part of the REA India group (alongside
+  Housing.com). It helps home buyers discover, evaluate, and purchase residential property
+  across major Indian cities, combining property search and locality research with on-ground
+  advisory, legal paperwork guidance, and home-loan assistance. The public surface is a
+  consumer-facing web and mobile marketplace; as of this enrichment pass PropTiger publishes
+  no public developer portal, API documentation, OpenAPI/AsyncAPI specification, SDKs, or
+  MCP server. This profile captures verifiable company identity, published consumer pages,
+  and live domain-security posture. Backed by Accel.'
 url: https://raw.githubusercontent.com/api-evangelist/proptiger/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Real Estate
+- Property
+- PropTech
+- Marketplace
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: http://www.proptiger.com
+- type: Blog
+  url: https://www.proptiger.com/guide
+- type: Support
+  url: https://www.proptiger.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.proptiger.com/privacy-policy
+- type: DomainSecurity
+  url: security/proptiger-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
